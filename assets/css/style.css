@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    box-sizing: border-box;
+}
+body{
+  /* background-color:#dbb88e; */
+  /* color:rgba(222, 207, 207, 0.841); */
+}
+.head{
+  background-color:#dbb88e;
+  /* position:fixed; */
+}
+.header{
+
+  padding:40px 0 40px;
+  /* float:left; */
+}
+.search{
+  padding:10px 25px;
+  background-color: transparent;
+  border:2px solid #491404;
+  border-radius: 30px;
+  /* color:#491404; */
+  box-shadow: 0 10px 10px rgba(170, 23, 23, 0.5);
+}
+.logo img{
+  height:100px;
+  width:100px;
+  object-fit: cover;
+  position: absolute;
+  top:10px;
+  right:16px;
+}
+.navbar ul{
+  list-style: none;
+}
+
+.navbar ul li{
+  display: inline-block;
+  margin-top: 40px;
+  
+}
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+
+.navbar ul li a{
+  font-size: 15px;
+  /* font-weight:700; */
+  padding:10px 20px 10px;
+  color:#491404;
+}
+.navbar a:hover{
+  transition: all 0.7s ease-in-out;
+  background-color: #491404;
+  color:#dbb88e;
+  border-radius: 30px;
+}
+.col-md-3 {
+  float:left;
+  padding:25px;
+}
+.col-md-6{
+  float:left;
+}
+.contentdiv{
+  width:600px;
+  height:300px;
+  padding:25px;
+  border-radius: 25px;
+}
+.Mycafe{
+background-image:linear-gradient(rgb(0, 0, 0, 0.5),rgb(0, 0, 0, 0.5)),url(../images/coff4.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+  /* background-color: black; */
+  color:#fff;
+  text-align: center;
+}
+.contentImg{
+  padding:20px 20px;
+  width:200px;
+  height:200px;
+  object-fit: cover;
+  border-radius:30px;
+}
+.contentImg:hover{
+  z-index: 1;
+  transform: scale(1.25);
+  transition: all 0.7s ease-in-out;
+}
+.secHeading{
+  font-size: 20px;
+}
+.btn{
+  background-color: #dbb88e;
+  color:#491404;
+  padding:5px 25px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.btn:hover{
+  background-color: #491404;
+  color:#dbb88e;
+  font-weight: bold;
+  box-shadow: 0 10px 10px rgba(170, 23, 23, 0.5);
+  transform: scale(1.20);
+}
